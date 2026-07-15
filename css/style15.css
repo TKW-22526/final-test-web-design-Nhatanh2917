@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+.container{
+    display:flex;
+}
+
+/* Sidebar */
+.sidebar{
+    width:230px;
+    height:100vh;
+    background:#222831;
+    color:white;
+}
+
+.sidebar h2{
+    text-align:center;
+    padding:20px;
+    font-size:22px;
+    border-bottom:1px solid #444;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li{
+    padding:15px 20px;
+    cursor:pointer;
+}
+
+.sidebar ul li:hover{
+    background:#393e46;
+}
+
+/* Nội dung */
+.content{
+    flex:1;
+    padding:20px;
+}
+
+/* Header */
+.header{
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+    border-radius:5px;
+    margin-bottom:20px;
+}
+
+.header a{
+    text-decoration:none;
+    color:red;
+}
+
+/* Tìm kiếm */
+.search{
+    background:#0d6efd;
+    padding:18px;
+    text-align:center;
+    border-radius:5px;
+}
+
+.search input{
+    width:300px;
+    padding:8px;
+}
+
+.search button{
+    padding:8px 18px;
+    border:none;
+    background:white;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+/* Tiêu đề */
+h2{
+    margin:20px 0;
+}
+
+/* Bảng */
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+table th{
+    background:#222;
+    color:white;
+    padding:10px;
+}
+
+table td{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:center;
+}
+
+table img{
+    width:55px;
+    height:75px;
+}
+
+/* Nút */
+.edit{
+    background:#ffc107;
+    color:white;
+    border:none;
+    padding:6px 12px;
+    border-radius:4px;
+    cursor:pointer;
+    margin-bottom:5px;
+}
+
+.delete{
+    background:#dc3545;
+    color:white;
+    border:none;
+    padding:6px 12px;
+    border-radius:4px;
+    cursor:pointer;
+}

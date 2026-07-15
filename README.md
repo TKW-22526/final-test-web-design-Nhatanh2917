@@ -175,10 +175,10 @@ Sinh viên cần nộp đầy đủ các nội dung sau:
 Sinh viên cập nhật thông tin cá nhân tại đây:
 
 ```text
-Họ và tên:
-Mã số sinh viên:
-Lớp:
-Tên đề tài:
-Liên kết GitHub repository:
+Họ và tên: phạm Nhật Nhật
+Mã số sinh viên:11021215214
+Lớp:DA25TTB
+Tên đề tài:THIẾT KẾ WEBSITE QUẢN LÝ THƯ VIỆN ĐẠI HỌC TRÀ VINH
+Liên kết GitHub repository:https://github.com/TKW-22526/final-test-web-design-Nhatanh2917.git
 Liên kết GitHub Pages:
 ```

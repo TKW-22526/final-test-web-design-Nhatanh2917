@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f3f3f3;
+}
+
+.container{
+    display:flex;
+    min-height:100vh;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width:220px;
+    background:#23272f;
+    color:white;
+}
+
+.sidebar h2{
+    text-align:center;
+    padding:20px;
+    font-size:22px;
+    border-bottom:1px solid rgba(255,255,255,.2);
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar li{
+    padding:15px 20px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.sidebar li:hover{
+    background:#343a40;
+}
+
+.sidebar i{
+    margin-right:10px;
+}
+
+.right{
+    float:right;
+}
+
+/* Content */
+
+.content{
+    flex:1;
+}
+
+/* Header */
+
+.header{
+    height:60px;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 20px;
+    box-shadow:0 2px 5px rgba(0,0,0,.1);
+}
+
+.user a{
+    text-decoration:none;
+    color:black;
+    margin-left:10px;
+}
+
+/* Search */
+
+.search-box{
+    width:90%;
+    margin:25px auto;
+    background:#0d6efd;
+    padding:15px;
+    text-align:center;
+}
+
+.search-box input{
+    width:250px;
+    padding:8px;
+    border:none;
+    border-radius:4px;
+}
+
+.search-box button{
+    padding:8px 20px;
+    border:none;
+    background:white;
+    cursor:pointer;
+    border-radius:4px;
+}
+
+/* Card */
+
+.card{
+    width:90%;
+    margin:auto;
+    background:white;
+    border:1px solid #ddd;
+    padding:20px;
+}
+
+.card h2{
+    margin-bottom:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th{
+    background:#1f1f1f;
+    color:white;
+    padding:12px;
+}
+
+table td{
+    padding:12px;
+    text-align:center;
+    border:1px solid #ddd;
+}
+
+.edit{
+    background:#ffc107;
+    border:none;
+    padding:6px 12px;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.delete{
+    background:#dc3545;
+    color:white;
+    border:none;
+    padding:6px 12px;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.edit:hover{
+    background:#e0a800;
+}
+
+.delete:hover{
+    background:#bb2d3b;
+}

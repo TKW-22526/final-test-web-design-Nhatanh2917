@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#fff;
+}
+
+h2{
+    text-align:center;
+    margin:20px 0;
+}
+
+.container{
+    width:1000px;
+    margin:auto;
+    border:2px solid #777;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.menu{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:18px;
+    border-bottom:2px solid #777;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#000;
+    border:1px solid #888;
+    border-radius:8px;
+    padding:8px 22px;
+}
+
+.content{
+    padding:20px;
+}
+
+.box{
+    border:2px solid #999;
+    border-radius:18px;
+    margin-bottom:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.slider{
+    height:120px;
+}
+
+.banner{
+    height:60px;
+}
+
+.noibat{
+    height:110px;
+}
+
+.theloai{
+    padding:20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:15px;
+    margin-top:15px;
+}
+
+.item{
+    border:1px solid #888;
+    border-radius:10px;
+    height:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer{
+    border-top:2px solid #777;
+    text-align:center;
+    padding:30px;
+}

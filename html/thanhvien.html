@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý thư viện</title>
+    <link rel="stylesheet" href="../css/style12.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Quản lí Thư viện</h2>
+
+        <ul> 
+            <li>
+                <a href="tongquan.html">🏠 Tổng quan</a>
+            </li> 
+            <li>
+                <a href="thanhvien.html">👥 Quản lý thành viên</a>
+            </li> 
+            <li>
+                 <a href="quanlysach.html">📚 Quản lý sách</a>
+            </li> 
+        </ul>
+    </div>
+
+    <!-- Nội dung -->
+    <div class="content">
+
+        <!-- Header -->
+        <div class="header">
+            <span><i class="fa-solid fa-bars"></i> Trang chủ</span>
+
+            <div class="user">
+                Xin chào, <b>admin2</b>
+                <a href="#"><i class="fa-solid fa-right-from-bracket"></i> Đăng xuất</a>
+            </div>
+        </div>
+
+        <!-- Search -->
+        <div class="search-box">
+            <input type="text" placeholder="Tìm sinh viên...">
+            <button>Tìm</button>
+        </div>
+
+        <!-- Card -->
+        <div class="card">
+
+            <h2>Quản lý thành viên</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mã SV</th>
+                        <th>Họ tên</th>
+                        <th>Tên đăng nhập</th>
+                        <th>Email</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Nhật Anh</td>
+                        <td>anh</td>
+                        <td>user@gmail.com</td>
+                        <td>
+                            <button class="edit">Sửa</button>
+                            <button class="delete">Xóa</button>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

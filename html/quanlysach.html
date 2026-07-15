@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý Thư viện</title>
+    <link rel="stylesheet" href="../css/style15.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Quản trị Thư viện</h2>
+
+        <ul>
+            <li><a href="tongquan.html">🏠 Tổng quan</a></li>
+            <li><a href="thanhvien.html">👥 Quản lý thành viên</a></li>
+            <li><a href="quanlysach.html">📚 Quản lý sách</a></li>
+        </ul>
+    </div>
+
+    <!-- Nội dung -->
+    <div class="content">
+
+        <div class="header">
+            <div>☰ Trang chủ</div>
+
+            <div>
+                Xin chào, <b>admin2</b>
+                <a href="dangnhap.html">Đăng xuất</a>
+            </div>
+        </div>
+
+        <div class="search">
+            <input type="text" placeholder="Tìm sách...">
+            <button>Tìm</button>
+        </div>
+
+        <h2>Quản lý sách</h2>
+
+        <table>
+            <tr>
+                <th>Mã sách</th>
+                <th>Thể loại</th>
+                <th>Tên sách</th>
+                <th>Tác giả</th>
+                <th>Ảnh bìa</th>
+                <th>Nhà XB</th>
+                <th>Số lượng</th>
+                <th>Tình trạng</th>
+                <th>Giá</th>
+                <th>Mô tả</th>
+                <th>Thao tác</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>lập trình</td>
+                <td>C++ Cơ Bản</td>
+                <td>Stanley B.Lippman,Josée Lajoie,Barbara E.Moo</td>
+                <td><img src="../assets/images/ltccb.jpg" width="60"></td>
+                <td>Addison-Wesley Professional.</td>
+                <td>10</td>
+                <td>Còn hàng</td>
+                <td>160.000</td>
+                <td>Cuốn sách cung cấp đầy đủ kiến thức về ngôn ngữ lập trình C++
+                    từ cơ bản đến nâng cao, giúp người học nắm vững cú pháp,
+                    lập trình hướng đối tượng và cách xây dựng các chương trình thực tế. 
+                    Phù hợp với sinh viên ngành Công nghệ thông tin và người mới
+                    bắt đầu học lập trình.</td>
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>lập trình</td>
+                <td>Java Cơ Bản</td>
+                <td>Swift Learning Publication</td>
+                <td><img src="../assets/images/java.jpg" width="60"></td>
+                <td>Swift Learning Publication</td>
+                <td>12</td>
+                <td>Còn hàng</td>
+                <td>400.000</td>
+                <td>Sách giới thiệu các kiến thức nền tảng của ngôn ngữ Java như lớp, 
+                    đối tượng, kế thừa, đa hình, xử lý ngoại lệ và kết nối cơ sở dữ liệu.
+                    Có nhiều ví dụ minh họa và bài tập thực hành giúp người học dễ tiếp cận.</td>
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Lập trình</td>
+                <td>HTML và CSS</td>
+                <td>Jürgen Wolf</td>
+                <td><img src="../assets/images/htmlvacss.jpg" width="60"></td>
+                <td>Rheinwerk Computing</td>
+                <td>15</td>
+                <td>Còn hàng</td>
+                <td>250.000</td>
+                <td>Tài liệu hướng dẫn lập trình Python từ cơ bản đến nâng cao 
+                    với nhiều ví dụ thực tế về xử lý dữ liệu, lập trình hướng đối
+                    tượng và xây dựng ứng dụng.Phù hợp cho sinh viên và người tự học.</td>
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Tạp chí</td>
+                <td>Khoa Học Xã Hội và Xã Hội Nhân Văn</td>
+                <td>Nguyễn Khánh Toàn</td>
+                <td><img src="../assets/images/khxavanv.jpg" width="60"></td>
+                <td>Nhà Xuất Bản khoa học Xã Hội</td>
+                <td>8</td>
+                <td>Còn hàng</td>
+                <td>180.000</td>
+                <td>Khoa học xã hội và nhân văn” là tuyển tập các bài nghiên cứu tiêu biểu của Giáo sư Nguyễn Khánh Toàn 
+                    về giáo dục, lịch sử, văn hóa và khoa học xã hội. Cuốn sách phân tích vai trò của khoa học xã hội và
+                    nhân văn trong sự phát triển đất nước, đồng thời làm rõ tư tưởng Hồ Chí Minh, truyền thống dân tộc và 
+                    sự nghiệp giáo dục. Tác phẩm cũng nhấn mạnh tầm quan trọng của việc đào tạo con người, phát triển tri 
+                    thức và vận dụng các giá trị khoa học xã hội vào thực tiễn xây dựng và bảo vệ Tổ quốc. Tuyển tập gồm ba 
+                    phần chính: Bác Hồ của chúng ta, Cách mạng và khoa học xã hội, và Sự nghiệp trồng người. 
+                </td>
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr>
+              <tr>
+                <td>5</td>
+                <td>Tạp chí</td>
+                <td>Tạp chí Khoa học và công nghệ</td>
+                <td>Viện khoa học</td>
+                <td><img src="../assets/images/khvacn.jpg" width="60"></td>
+                <td>Nhà Xuất Bản Khoa học và Công nghệ</td>
+                <td>9</td>
+                <td>Còn hàng</td>
+                <td>110.000</td>
+                <td>Tạp chí Khoa học & Công nghệ là ấn phẩm khoa học đăng tải các bài báo nghiên cứu, 
+                    kết quả thực nghiệm và ứng dụng công nghệ trong nhiều lĩnh vực như cơ khí, điện – điện tử, 
+                    công nghệ thông tin, tự động hóa và môi trường. Tạp chí góp phần chia sẻ tri thức, thúc đẩy 
+                    nghiên cứu khoa học, đổi mới sáng tạo và nâng cao chất lượng đào tạo, phục vụ sự phát triển của xã hội.</td>
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr>
+              <tr>
+                <td>6</td>
+                <td>Tạp chí</td>
+                <td>Tạp chí Giáo dục</td>
+                <td>Bộ Giáo Dục</td>
+                <td><img src="../assets/images/tcgd.jpg" width="60"></td>
+                <td>Roberts</td>
+                <td>10</td>
+                <td>Còn hàng</td>
+                <td>350000</td>
+                <td>Tạp chí Giáo dục là tạp chí khoa học chuyên ngành giáo dục, 
+                    đăng tải các công trình nghiên cứu, bài viết trao đổi học thuật
+                    và kết quả ứng dụng trong lĩnh vực giáo dục và đào tạo. Nội dung bao 
+                    gồm các vấn đề về đổi mới phương pháp dạy học, quản lý giáo dục, ứng 
+                    dụng công nghệ thông tin trong giáo dục, kiểm tra – đánh giá, phát triển 
+                    chương trình đào tạo và các nghiên cứu nhằm nâng cao chất lượng giáo dục ở Việt Nam.</td>
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr>
+             <tr>
+                <td>7</td>
+                <td>Tạp chí</td>
+                <td>Tạp chí Giáo dục</td>
+                <td>Bộ Giáo Dục</td>
+                <td><img src="../assets/images/tcgd.jpg" width="60"></td>
+                <td>Nhà xuất bản văn học</td>
+                <td>15</td>
+                <td>Còn hàng</td>
+                <td>50.000</td>
+                <td>Tắt đèn của Ngô Tất Tố phản ánh chân thực cuộc sống khốn khổ 
+                    của người nông dân Việt Nam dưới chế độ thực dân phong kiến. 
+                    Tác phẩm xoay quanh gia đình chị Dậu phải chịu sưu thuế nặng nề, 
+                    áp bức và bất công. Qua hình ảnh chị Dậu giàu lòng yêu thương, kiên cường 
+                    và dũng cảm chống lại cường quyền, tác phẩm lên án xã hội tàn bạo, đồng thời 
+                    bày tỏ niềm cảm thông sâu sắc đối với số phận của người nông dân.</td>
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr>
+             <tr>
+                <td>8</td>
+                <td>Văn học</td>
+                <td>Nhật ký trong tù</td>
+                <td>Hồ Chí Mình</td>
+                <td><img src="../assets/images/nktt.jpg" width="60"></td>
+                <td>Nhà Xuất bản văn học</td>
+                <td>10</td>
+                <td>Còn hàng</td>
+                <td>80.000</td>
+                <td>Nhật ký trong tù là tập thơ của Chủ tịch Hồ Chí Minh, 
+                    được sáng tác trong thời gian Người bị giam giữ tại các
+                     nhà tù ở Trung Quốc (1942–1943). Qua những bài thơ ngắn gọn,
+                      tác phẩm phản ánh cuộc sống khắc nghiệt trong lao tù, đồng thời 
+                      thể hiện tinh thần lạc quan, ý chí kiên cường, lòng yêu nước và 
+                      khát vọng tự do. Đây là một tác phẩm có giá trị lớn về cả văn học và lịch sử.
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Văn học</td>
+                <td>Chí Phèo</td>
+                <td>Nam cao</td>
+                <td><img src="../assets/images/chipheo.jpg" width="60"></td>
+                <td>Nhà xuất bản văn học</td>
+                <td>14</td>
+                <td>Còn hàng</td>
+                <td>50.000</td>
+                <td>Chí Phèo của Nam Cao kể về cuộc đời bi kịch của Chí Phèo 
+                    một người nông dân hiền lành bị xã hội phong kiến đẩy vào 
+                    con đường lưu manh. Qua câu chuyện về Chí Phèo và Thị Nở, 
+                    tác phẩm phản ánh hiện thực tàn nhẫn của xã hội cũ, lên án 
+                    sự áp bức đã cướp đi quyền làm người của người nông dân, đồng 
+                    thời thể hiện niềm cảm thông sâu sắc và khát vọng được sống lương thiện 
+                    của con người.</td>
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Văn học</td>
+                <td>Vợ Nhặt</td>
+                <td>Kim Lân</td>
+                <td><img src="../assets/images/vonhat.jpg" width="60"></td>
+                <td>Nhà xuất bản văn học</td>
+                <td>18</td>
+                <td>Còn hàng</td>
+                <td>50.000</td>
+                <td>Vợ nhặt là tập truyện ngắn của Kim Lân, viết về cuộc sống nghèo khó 
+                    của người nông dân Việt Nam trước và sau Cách mạng tháng Tám. Với lối
+                     viết chân thực, giản dị và giàu cảm xúc, tác phẩm ca ngợi tình người, 
+                     lòng nhân ái và khát vọng hạnh phúc ngay trong những hoàn cảnh khó khăn nhất.</td>
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr>
+            tr>
+                <td>11</td>
+                <td>Văn học</td>
+                <td>chiếc lá cuối cùng</td>
+                <td>O.Henry</td>
+                <td><img src="../assets/images/chieclacuoicung.jpg" width="60"></td>
+                <td>Nhà xuất bản văn học</td>
+                <td>18</td>
+                <td>Còn hàng</td>
+                <td>50.000</td>
+                <td>Chiếc lá cuối cùng là tuyển tập truyện ngắn nổi tiếng của nhà văn O. Henry,
+                     gồm nhiều câu chuyện giàu tính nhân văn, phản ánh cuộc sống của những con
+                      người bình dị với những thông điệp sâu sắc về tình yêu thương, lòng nhân ái 
+                      và sự hy sinh. Truyện "Chiếc lá cuối cùng" kể về tình bạn cảm động giữa những 
+                      người họa sĩ nghèo, trong đó hình ảnh chiếc lá cuối cùng trở thành biểu tượng của 
+                      niềm hy vọng, ý chí vượt qua bệnh tật và sự hy sinh cao cả. Với lối kể chuyện hấp 
+                      dẫn cùng những cái kết bất ngờ, tác phẩm mang đến nhiều bài học ý nghĩa về cuộc sống 
+                      và luôn được đông đảo bạn đọc yêu thích.</td>
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Ngoại văn</td>
+                <td>Educated</td>
+                <td>Tara Westover</td>
+                <td><img src="../assets/images/educated.jpg" width="60"></td>
+                <td>Random House Trade</td>
+                <td>10</td>
+                <td>Còn hàng</td>
+                <td>198.000</td>
+                <td>Educated là cuốn hồi ký của Tara Westover, 
+                    kể về hành trình vượt qua tuổi thơ thiếu điều kiện học 
+                    tập để theo đuổi tri thức và thay đổi cuộc đời. Cuốn sách 
+                    truyền cảm hứng về sức mạnh của giáo dục, ý chí vươn lên và hành trình 
+                    khám phá bản thân.</td>
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Ngoại văn</td>
+                <td>Oxford Advanced Learner's Dictionary </td>
+                <td>Diana Lea, Jennifer Bradbery</td>
+                <td><img src="../assets/images/oxfordadvancedlearner'sdictionary.jpg" width="60"></td>
+                <td>Oxford University Press</td>
+                <td>10</td>
+                <td>Còn hàng</td>
+                <td>521.000</td>
+                <td>Oxford Advanced Learner’s Dictionary (11th Edition) là cuốn từ điển tiếng Anh 
+                    dành cho người học do Oxford University Press biên soạn. Cuốn sách giải thích 
+                    từ vựng rõ ràng, kèm phát âm, ví dụ và cách sử dụng, giúp người học mở rộng vốn 
+                    từ và nâng cao khả năng sử dụng tiếng Anh hiệu quả.</td>
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr><tr>
+                <td>14</td>
+                <td>Ngoại văn</td>
+                <td>Atomis Habits</td>
+                <td>James Clear</td>
+                <td><img src="../assets/images/atomishabits.jpg" width="60"></td>
+                <td>Penguin Young Readers</td>
+                <td>10</td>
+                <td>Còn hàng</td>
+                <td>568.000</td>
+                <td>Atomic Habits là cuốn sách của James Clear hướng dẫn cách xây dựng 
+                    thói quen tốt và loại bỏ thói quen xấu thông qua những thay đổi nhỏ mỗi ngày.
+                     Nội dung nhấn mạnh rằng những cải thiện nhỏ nhưng được duy trì đều đặn sẽ tạo 
+                     nên kết quả lớn và bền vững theo thời gian.</td>
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Ngoại văn </td>
+                <td>The Body Keeps The Score</td>
+                <td>James Clear</td>
+                <td><img src="../assets/images/thebodykeepsthescore.jpg" width="60"></td>
+                <td>Bessel van der Kolk M.D.</td>
+                <td>15</td>
+                <td>Còn hàng</td>
+                <td>455.000</td>
+                <td>The Body Keeps the Score là cuốn sách của Bessel van der Kolk,
+                     một bác sĩ tâm thần và chuyên gia hàng đầu về sang chấn tâm lý. 
+                     Cuốn sách trình bày cách chấn thương tâm lý ảnh hưởng đến não bộ, 
+                     cơ thể và cảm xúc, đồng thời giới thiệu các phương pháp giúp con người 
+                     chữa lành và phục hồi sức khỏe tinh thần</td>
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Ngoại văn</td>
+                <td>A Little Life</td>
+                <td>Hanya Yanangihara</td>
+                <td><img src="../assets/images/alittlelife.jpg" width="60"></td>
+                <td>Anchor Books</td>
+                <td>10</td>
+                <td>Còn hàng</td>
+                <td>320.000</td>
+                <td>A Little Life (Một Đời Nhỏ Bé) là tiểu thuyết của Hanya Yanagihara 
+                    kể về tình bạn, tình yêu và những tổn thương sâu sắc của bốn người 
+                    bạn tại New York. Cuốn sách khắc họa hành trình vượt qua đau khổ, mất 
+                    mát và tìm kiếm ý nghĩa của cuộc sống bằng lối kể chuyện đầy cảm xúc.</td>
+                <td>
+                    <button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>

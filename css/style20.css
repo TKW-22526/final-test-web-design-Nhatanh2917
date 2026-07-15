@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#fff;
+    padding:30px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+    font-size:42px;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    border:2px solid #333;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+/* Menu */
+.menu{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:15px;
+    border-bottom:2px solid #333;
+}
+
+.menu button{
+    width:120px;
+    height:45px;
+    border:2px solid #333;
+    border-radius:10px;
+    background:#fff;
+    cursor:pointer;
+    font-size:18px;
+}
+
+/* Slider */
+.slider{
+    margin:20px;
+    height:120px;
+    border:2px solid #333;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+}
+
+/* Banner */
+.banner{
+    margin:20px;
+    height:70px;
+    border:2px solid #333;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+}
+
+/* Sách nổi bật */
+.book{
+    margin:20px;
+    height:350px;
+    border:2px solid #333;
+    border-radius:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+}
+
+/* Footer */
+footer{
+    height:80px;
+    border-top:2px solid #333;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+}
