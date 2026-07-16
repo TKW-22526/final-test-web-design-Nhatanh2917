@@ -1,0 +1,181 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+}
+
+/* Header */
+header{
+    background:#0056b3;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    margin-right:15px;
+}
+
+.logo h2{
+    font-size:28px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#ffd700;
+}
+
+/* Banner */
+.banner{
+    background:linear-gradient(rgba(0,86,179,.7),rgba(0,86,179,.7)),
+               url("../assets/images/banner.jpg") center/cover no-repeat;
+    text-align:center;
+    color:#fff;
+    padding:80px 20px;
+}
+
+.banner h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.banner p{
+    font-size:18px;
+}
+
+/* Danh sách sách */
+.book-list{
+    width:90%;
+    margin:40px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.book{
+    background:#fff;
+    border-radius:10px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.book:hover{
+    transform:translateY(-8px);
+}
+
+.book img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+}
+
+.book h3{
+    color:#0056b3;
+    margin:15px 10px;
+    font-size:22px;
+}
+
+.book p{
+    margin:10px 15px;
+    font-size:15px;
+    line-height:1.6;
+}
+
+.book button{
+    margin:20px 0;
+    padding:10px 25px;
+    border:none;
+    border-radius:5px;
+    background:#0056b3;
+    color:#fff;
+    font-size:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.book button:hover{
+    background:#003d80;
+}
+
+/* Footer */
+footer{
+    background:#0056b3;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    header{
+        flex-direction:column;
+        text-align:center;
+        padding:20px;
+    }
+
+    .logo{
+        flex-direction:column;
+    }
+
+    .logo img{
+        margin-right:0;
+        margin-bottom:10px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        margin-top:15px;
+    }
+
+    nav ul li{
+        margin:10px 0;
+    }
+
+    .banner h1{
+        font-size:30px;
+    }
+
+    .banner p{
+        font-size:16px;
+    }
+
+    .book img{
+        height:260px;
+    }
+}

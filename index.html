@@ -1,72 +1,151 @@
 <!DOCTYPE html>
 <html lang="vi">
-    <head>
-        <title> thiêt kế  </title>
-        <meta charset ="utf-8">
-    </head>    
-    <body>
-		<p> Đây là trang chủ </p>
-		<ul>
-			<a href="html/adimin.html"> Đăng ký</a>
-		</ul>
-		<ul>
-			<a href="html/chi-tiet.html"> fomr</a>
-		</ul>
-		<ul>
-			<a href="html/chitieet.html"> Giới thiệu</a>
-		</ul>
-		<ul>
-			<a href="html/chitietchuong.html"> Trang 1</a>
-		</ul>
-		<ul>
-			<a href="html/dangky.html"> Trang 2</a>
-		</ul>
-		<ul>
-			<a href="html/dangxuat.html"> Trang 3</a>
-		</ul>
-		<ul>
-			<a href="html/danhnhap1.html"> Trang 4</a>
-		</ul>
-		<ul>
-			<a href="html/giaodientrangchu.html"> Trang 5</a>
-		</ul>
-		<ul>
-			<a href="html/muon-tra.html"> Trang 6</a>
-		</ul>
-		<ul>
-			<a href="html/muon.html"> Trang 7</a>
-		</ul>
-		<ul>
-			<a href="html/quanlysach.html"> Chi tiết</a>
-		</ul>
-		<ul>
-			<a href="html/sodo.html"> Chi tiết</a>
-		</ul>
-		<ul>
-			<a href="html/sodo.html"> Chi tiết</a>
-		</ul>
-		<ul>
-			<a href="html/tc.html"> Chi tiết</a>
-		</ul>
-		<ul>
-			<a href="html/thanhvien.html"> Chi tiết</a>
-		</ul>
-		<ul>
-			<a href="html/theloai.html"> Chi tiết</a>
-		</ul><ul>
-			<a href="html/theloaij1.html"> Chi tiết</a>
-		</ul><ul>
-			<a href="html/Thongke.html"> Chi tiết</a>
-		</ul><ul>
-			<a href="html/timkiem.html"> Chi tiết</a>
-		</ul>
-		<ul>
-			<a href="html/trang.html"> Chi tiết</a>
-		</ul><ul>
-			<a href="html/user.html"> Chi tiết</a>
-		</ul>
-		<ul>
-			<a href="html/vipham.html"> Chi tiết</a>
-		</ul>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư viện Đại học Trà Vinh</title>
+    <link rel="stylesheet" href="./css/style001.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+			<img src="./assets/images/logo.jpg" alt=" Logo tvu">
+            <h2> THƯ VIỆN ĐẠI HỌC TRÀ VINH</h2>
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Tìm kiếm sách...">
+            <button>Tìm kiếm</button>
+        </div>
+
+        <div class="login">
+            <a href="./html/danhnhap1.html">Đăng nhập</a>
+             <a href="./html/dangxuat.html" class="logout">Đăng xuất</a>
+        </div>
+    </header>
+
+    <!-- Menu -->
+    <nav class="menu">
+        <ul>
+            <li><a href="./index.html">Trang chủ</a></li>
+            <li><a href="./html/mucsach.html">Danh mục sách</a></li>
+            <li><a href="./html/theloaij1.html">Thể loại</a></li>
+            <li><a href="./html/muon-tra.html">Mượn trả</a></li>
+            <li><a href="./html/lienhe.html">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner">
+        <img src="./assets/images/thuvien.jpg" alt="Banner">
+        <div class="banner-content">
+            <h1>Chào mừng đến với Thư viện Đại học Trà Vinh</h1>
+            <p>Tra cứu - Mượn sách - Quản lý thư viện hiện đại</p>
+            <a href="./html/mucsach.html" class="btn">Khám phá ngay</a>
+        </div>
+    </section>
+
+    <!-- Thể loại -->
+    <section class="category">
+        <h2>Danh mục thể loại</h2>
+
+        <div class="category-list">
+
+            <a href="./html/theloailp.html" class="category-item">
+                💻
+                <h3>Lập trình</h3>
+            </a>
+
+            <a href="./html/theloaivhc.html" class="category-item">
+                📖
+                <h3>Văn học</h3>
+            </a>
+
+            <a href="./html/theloaitc.html" class="category-item">
+                ⚖
+                <h3>Tạp chí</h3>
+            </a>
+
+            <a href="./html/theloainv.html" class="category-item">
+                🌍
+                <h3>Ngoại văn</h3>
+            </a>
+
+        </div>
+    </section>
+<!-- Sách nổi bật --> 
+ <section class="books"> 
+    <h2>Sách nổi bật</h2> <div class="book-list"> 
+        <div class="book"> 
+            <img src="./assets/images/htmlvacss.jpg" alt=""> 
+            <h3>HTML & CSS</h3> <p>Tác giả: Jürgen Wolf</p> 
+            <a href="chitietsach.html">Xem chi tiết</a> </div> 
+            <div class="book"> <img src="./assets/images/java.jpg" alt=""> 
+                <h3>Java Cơ Bản</h3> <p>Tác giả: Herbert Schildt</p> 
+                <a href="chitietsach.html">Xem chi tiết</a> 
+            </div> 
+            <div class="book"> 
+                <img src="images/book3.jpg" alt=""> 
+                <h3>Python Cơ Bản</h3> <p>Tác giả: Swift Learning Publication</p> 
+                <a href="chitietsach.html">Xem chi tiết</a> 
+            </div> <div class="book"> 
+                <img src="./assets/images/ltccb.jpg" alt=""> 
+                <h3>C++ Cơ Bản</h3> 
+                <p>Tác giả: Stanley B.Lippman,Josée Lajoie,Barbara E.Moo</p> 
+                <a href="chitietsach.html">Xem chi tiết</a> 
+            </div> 
+        </div>
+</div>
+
+    </section>
+
+    <!-- Thông báo -->
+    <section class="notice">
+
+        <h2>Thông báo</h2>
+
+        <div class="notice-box">
+            <ul>
+                <li>📢 Thư viện bổ sung hơn 500 đầu sách mới.</li>
+                <li>📢 Thời gian mở cửa từ 06:00 đến 23:00.</li>
+                <li>📢 Sinh viên trả sách đúng hạn để tránh bị xử phạt.</li>
+                <li>📢 Đăng nhập tài khoản để theo dõi lịch sử mượn sách.</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-content">
+            <div>
+                <h3>Thư viện Đại học Trà Vinh</h3>
+                <p>Địa chỉ: 126 Nguyễn Thiện Thành, TP. Trà Vinh</p>
+            </div>
+
+            <div>
+                <h3>Liên hệ</h3>
+                <p>Email: library@tvu.edu.vn</p>
+                <p>Điện thoại: 0294 123 456</p>
+            </div>
+
+            <div>
+                <h3>Liên kết</h3>
+                <a href="index.html">Trang chủ</a><br>
+                <a href="./html/mucsach.html">Danh mục</a><br>
+                <a href="./html/danhnhap1.html">Đăng nhập</a>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copy">© 2026 Hệ thống Quản lý Thư viện - Đại học Trà Vinh</p>
+
+    </footer>
+
+</body>
 </html>
